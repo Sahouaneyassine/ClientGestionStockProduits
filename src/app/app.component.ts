@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ClientGestionStockProduits';
+  OpenClose: boolean=true;
+
+  CloseOpen() {
+    this.OpenClose=!this.OpenClose ;
+
+  }
+
+  onShowSideBarChange(OpenClose) {
+    this.OpenClose=OpenClose;
+
+  }
 }

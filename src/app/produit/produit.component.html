@@ -1,0 +1,24 @@
+<p>produit works!</p>
+<div class="card">
+  <div class="card-header">Listes Des Produits</div>
+  <div class="card-body">
+<table class="table table-striped">
+  <thead class="thead-dark">
+  <th>Indetifiant</th><th>Quantite</th><th>Prix Unitaire</th>
+  </thead>
+  <tbody>
+  <tr *ngFor="let produit of produits">
+    <td >{{produit.ref}}</td>
+    <td>{{produit.quantite}}</td>
+    <td>{{produit.prixunitaire}}</td>
+
+  </tr>
+
+  </tbody>
+
+
+
+</table>
+  </div>
+</div>
+
