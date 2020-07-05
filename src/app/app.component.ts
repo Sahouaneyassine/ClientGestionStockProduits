@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ClientGestionStockProduits';
-  OpenClose: boolean=true;
+  OpenClose: boolean=false;
 
   CloseOpen() {
     this.OpenClose=!this.OpenClose ;
